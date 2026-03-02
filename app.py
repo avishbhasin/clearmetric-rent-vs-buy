@@ -52,21 +52,22 @@ st.markdown("---")
 # ---------------------------------------------------------------------------
 with st.sidebar:
     st.markdown("## Your Scenario")
+    st.button("🔄 Update Results", use_container_width=True)
 
     st.markdown("### Purchase Details")
-    home_price = st.number_input("Home Purchase Price ($)", value=400_000, min_value=0, step=10_000, format="%d")
+    home_price = st.number_input("Home Purchase Price ($)", value=400_000, min_value=0, step=10_000)
     down_pct = st.slider("Down Payment (%)", 0.0, 50.0, 20.0, 1.0) / 100
     mortgage_rate = st.slider("Mortgage Interest Rate (%)", 1.0, 15.0, 6.5, 0.25) / 100
     mortgage_term = st.selectbox("Mortgage Term", [15, 30], index=1)
 
     st.markdown("### Renting")
-    monthly_rent = st.number_input("Monthly Rent ($)", value=2_000, min_value=0, step=100, format="%d")
+    monthly_rent = st.number_input("Monthly Rent ($)", value=2_000, min_value=0, step=100)
     rent_increase = st.slider("Annual Rent Increase (%)", 0.0, 10.0, 3.0, 0.5) / 100
 
     st.markdown("### Ownership Costs")
     prop_tax_rate = st.slider("Property Tax Rate (%)", 0.0, 3.0, 1.2, 0.1) / 100
-    home_insurance = st.number_input("Home Insurance ($/year)", value=1_500, min_value=0, step=100, format="%d")
-    hoa_monthly = st.number_input("HOA Fees ($/month)", value=0, min_value=0, step=50, format="%d")
+    home_insurance = st.number_input("Home Insurance ($/year)", value=1_500, min_value=0, step=100)
+    hoa_monthly = st.number_input("HOA Fees ($/month)", value=0, min_value=0, step=50)
     maintenance_pct = st.slider("Home Maintenance (% of value/year)", 0.0, 3.0, 1.0, 0.1) / 100
     closing_costs_pct = st.slider("Closing Costs (%)", 0.0, 6.0, 3.0, 0.5) / 100
 
