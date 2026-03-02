@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avishbhasin.github.io/clearmetric-rent-vs-buy/sitemap.xml
