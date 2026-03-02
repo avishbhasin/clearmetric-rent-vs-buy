@@ -347,8 +347,8 @@ st.markdown("""
         ✓ What-If Scenarios: current market, optimistic, conservative<br>
         ✓ How To Use guide with input explanations<br>
     </p>
-    <a href="https://clearmetric.gumroad.com" target="_blank">
-        Get It on Gumroad — $12.99 →
+    <a href="https://clearmetric.gumroad.com/l/rent-vs-buy" target="_blank">
+        Get It on Gumroad — $9.99 →
     </a>
 </div>
 """, unsafe_allow_html=True)
@@ -360,19 +360,19 @@ with cx1:
     st.markdown("""
     **🏠 Rental Property Analyzer** — $19.99
     12+ metrics, 5-year projection, 4-property comparison.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/rental-property-analyzer)
     """)
 with cx2:
     st.markdown("""
     **📊 Budget Planner** — $13.99
     Track income, expenses, savings with the 50/30/20 framework.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/budget-planner)
     """)
 with cx3:
     st.markdown("""
     **🔥 FIRE Calculator** — $14.99
     Find your FIRE number, scenario comparison, year-by-year projection.
-    [Get it →](https://clearmetric.gumroad.com)
+    [Get it →](https://clearmetric.gumroad.com/l/fire-calculator)
     """)
 
 # Footer
