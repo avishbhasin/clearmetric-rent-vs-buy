@@ -3,3 +3,12 @@ __pycache__/
 .env
 .venv/
 venv/
+
+# Paid IP — keep locally, never publish to public Pages repo
+build_excel.py
+listing.md
+reddit-posts.md
+test_excel.py
+test_stress.py
+output/
+cover.png
